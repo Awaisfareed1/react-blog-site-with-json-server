@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+:root {
+    --color-black: #000;
+    --color-white: #ffffff;
+    --theme-color: rgb(255, 72, 255);
+    --font-family: 'Quicksand', sans-serif;
+    --nav-family: 'Protest Riot', sans-serif;
+}
+
+body {
+    background-color: var(--color-black) !important;
+    color: var(--color-white);
+    font-family: var(--font-family);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    margin: 0px !important;
+    margin: 0px !important;
+}
+
+.btn {
+    cursor: pointer !important;
+}
+
+.blog-body {
+    padding: 1rem;
+    margin: 1rem 0px;
+    border: 1px solid var(--color-white);
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: justify;
+}
+
+.blog-author {
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--color-white);
+}
+
+#handboy {
+    animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+
+}
+
+
+#girllight {
+    animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl {
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+    transform-origin: 60% 0%;
+    transform-box: fill-box;
+
+}
+
+#zero {
+    transform-origin: bottom;
+    transform-box: fill-box;
+
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
